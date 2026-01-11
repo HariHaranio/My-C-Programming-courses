@@ -10,7 +10,7 @@ Prerequisites: a C compiler such as `gcc` (MinGW on Windows).
 
 Compile and run an example (Windows / PowerShell): 
     -VScode (code editer),
-    -Code:block (IDE).
+    -Code::Blocks (IDE).
 
 ## Tips for programming.
     >.Document what you learn for easy recollection.
