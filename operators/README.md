@@ -69,4 +69,3 @@ int z = x++; // postfix: z == 6, x becomes 7
 ---
 
 If you want, I can add a small `examples.c` file demonstrating each operator category. Tell me if you'd like that added to the folder.
-
