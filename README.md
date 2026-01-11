@@ -9,8 +9,8 @@ programming, embedded development, and learning core programming concepts.
 Prerequisites: a C compiler such as `gcc` (MinGW on Windows).
 
 Compile and run an example (Windows / PowerShell): 
--VScode (code editer),
--Code::Blocks (IDE).
+- VScode (code editer),
+- Code::Blocks (IDE).
 
 ## Tips for programming.
     >.Document what you learn for easy recollection.
