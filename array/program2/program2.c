@@ -1,6 +1,6 @@
 #include <stdio.h>
 // C program to find the sum, largest and smallest number in an array.
-// new change
+
 int main() {
 
     int Numbers[5], sumArray = 0,i,largeNumber,smallNumber;
