@@ -58,7 +58,7 @@ int z = x++; // postfix: z == 6, x becomes 7
 - Conditional and logical:
 
 ```c
-
+syntax: expression1 ? Expression2 : Expression3;
 ```
 ## Important notes
 
