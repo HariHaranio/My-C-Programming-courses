@@ -24,7 +24,8 @@ Compile and run an example (Windows / PowerShell):
 
 ## Resources
 
-- https://en.cppreference.com/w/c
+- [cppreference](https://en.cppreference.com/w/c)
+- [geeksforgeeks operators-in-c](https://www.geeksforgeeks.org/c/operators-in-c/)
 
 Feel free to ask for more detailed README sections (contributing, tests,
 
