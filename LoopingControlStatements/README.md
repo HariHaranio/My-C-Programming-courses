@@ -13,8 +13,8 @@ C provides three primary looping constructs:
 -------------
 ### Purpose
 
-    Used when the number of iterations is known in advance.
-    This is not optional knowledge — it’s the whole point of the for loop.
+Used when the number of iterations is known in advance.
+This is not optional knowledge — it’s the whole point of the for loop.
 
 #### Syntax
 ```c
@@ -45,7 +45,7 @@ If you use a for loop when you don’t know how many times it will run, you’re
 ----------------
 ### Purpose
 
-    Used when the number of iterations is unknown, and execution depends on a condition.
+Used when the number of iterations is unknown, and execution depends on a condition.
 
 #### Syntax
 ```c
@@ -77,7 +77,7 @@ That’s not clever. That’s a bug.
 -------------------
 ### Purpose
 
-    Used when the loop body must execute at least once, regardless of the condition.
+Used when the loop body must execute at least once, regardless of the condition.
 
 #### Syntax
 ```c
