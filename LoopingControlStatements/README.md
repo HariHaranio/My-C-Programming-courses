@@ -13,8 +13,8 @@ C provides three primary looping constructs:
 -------------
 ### Purpose
 
-Used when the number of iterations is known in advance.
-This is not optional knowledge — it’s the whole point of the for loop.
+    Used when the number of iterations is known in advance.
+    This is not optional knowledge — it’s the whole point of the for loop.
 
 #### Syntax
 ```c
@@ -36,17 +36,16 @@ for (int i = 0; i < 5; i++) {
 2. Condition is checked
 3. Loop body executes if condition is true
 4. Increment/decrement happens
-5. Repeat from step 2
 
 #### Check
 
 If you use a for loop when you don’t know how many times it will run, you’re lying to yourself and future readers of your code.
 
-2. while Loop
+# 2. while Loop
 ----------------
 ### Purpose
 
-Used when the number of iterations is unknown, and execution depends on a condition.
+    Used when the number of iterations is unknown, and execution depends on a condition.
 
 #### Syntax
 ```c
@@ -74,11 +73,11 @@ while (i < 5) {
 If your condition never becomes false, congratulations — you just wrote an infinite loop.
 That’s not clever. That’s a bug.
 
-3. do while Loop
+# 3. do while Loop
 -------------------
 ### Purpose
 
-Used when the loop body must execute at least once, regardless of the condition.
+    Used when the loop body must execute at least once, regardless of the condition.
 
 #### Syntax
 ```c
