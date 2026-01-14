@@ -1,5 +1,5 @@
 #include<stdio.h>
-// write a program to reverse an array
+// write a program to Printing an array in reverse order
 // using do while loop
 int main(){
     int a[5],i = 0;
