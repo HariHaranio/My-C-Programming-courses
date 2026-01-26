@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+// swapping two numbwer using pointers.
 int main() {
     int a = 10;
     int b = 20;
