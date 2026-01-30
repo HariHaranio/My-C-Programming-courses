@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+// Program to perform addition, subtraction, multiplication and division of two 2D arrays of size 2x3.
 
 int main(){
     int a[2][3] = {{1,2,7},{8,9,6}}, b[2][3] = {{3,8,7},{1,10,4}};
