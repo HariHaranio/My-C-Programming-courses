@@ -1,4 +1,5 @@
 #include<stdio.h>
+// assignment date :23 - 02 - 2026
 // check whether the number is divisible by both  3 and 5.
 
 int main()

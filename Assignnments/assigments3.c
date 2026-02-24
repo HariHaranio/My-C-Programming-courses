@@ -1,4 +1,5 @@
 #include<stdio.h>
+// assignment date :23 - 02 - 2026
 // check whether the number is positive, negative or zero
 
 int main(){

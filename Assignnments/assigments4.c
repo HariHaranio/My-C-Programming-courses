@@ -1,4 +1,5 @@
 #include<stdio.h>
+// assignment date :23 - 02 - 2026
 // find largest of two numbers using ternary operator
 
 int main(){
