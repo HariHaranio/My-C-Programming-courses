@@ -1,4 +1,5 @@
 #include<stdio.h>
+// assignment date :27 - 02 - 2026
 // write a program to check whether a number is postive or negative.
 int main(){
     int getNum;

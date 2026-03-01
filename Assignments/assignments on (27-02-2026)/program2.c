@@ -1,4 +1,5 @@
 #include<stdio.h>
+// assignment date :27 - 02 - 2026
 // write a c program to check whether a year is a leap year or not.
 int main(){
     int year;
