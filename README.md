@@ -69,4 +69,20 @@ Compile and run an example (Windows / PowerShell):
 - The precedence of operators determine the order in which operations are performed in an expression.
 - Understanding how to use operators correctly is crucial for writing efficient and bug-free C code.
 
+## formate specifiers.
+- Format specifiers are used in C to specify the type of data being input or output in functions like `printf` and `scanf`.
+- Common format specifiers include 
+    - `%d`      =  integers,
+    - `%f`      =  floating-point numbers,
+    - `%.2f`    =  floating-point numbers with 2 decimal places,
+    - `%c`      =  characters,
+    - `%s`      =  strings,
+    - `%lf`     =  double-precision floating-point numbers,
+    - `%i`      =  integers (similar to `%d` but can also handle octal and hexadecimal),
+    - `%p`      =  pointers,
+    - `%u`      =  unsigned integers,
+    - `%x`      =  hexadecimal integers,
+    - `%o`      =  octal integers.
+
+- Format specifiers are essential for correctly interpreting and displaying data in C programs.
 
