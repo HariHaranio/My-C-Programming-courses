@@ -15,6 +15,35 @@ C is a general-purpose, procedural programming language that provides low-level 
 to memory, a simple set of keywords, and a clean style that makes it ideal for systems
 programming, embedded development, and learning core programming concepts.
 
+# variables.
+- A variable is a named storage location in memory that holds a value which can be changed during program execution.
+- Variables have a type that determines the kind of data they can hold (e.g., `int`, `float`, `char`).
+- Variables must be declared before they can be used, specifying their type and name.
+- Variables can be initialized at the time of declaration or assigned a value later in the program.
+- The scope of a variable determines where it can be accessed in the program (e.g., local, global).
+- Variables can be modified using assignment operators (e.g., `=`, `+=`, `-=`).
+- Proper naming conventions for variables improve code readability and maintainability (e.g., using descriptive names, avoiding reserved keywords).
+
+# keywords.
+- keywords are reserved words in C that have a special meaning and cannot be used as identifiers (e.g., variable names, function names).
+- C has a total of 32 keywords, including `int`, `float`, `if`, `else`, `while`, `for`, `return`, etc.
+- Keywords are used to define the structure and flow of a C program, such as declaring variables, controlling program flow, and defining functions.
+- Keywords are case-sensitive, meaning that `int` and `Int` are considered different identifiers.
+- Understanding and using keywords correctly is essential for writing valid and efficient C code.
+
+# operators.
+- Operators are symbols that perform operations on variables and values in C.
+- C has a variety of operators, 
+    - including arithmetic operators (`+`, `-`, `*`, `/`, `%`),
+    - relational operators (`==`, `!=`, `<`, `>`, `<=`, `>=`), 
+    - logical operators (`&&`, `||`, `!`), 
+    - bitwise operators (`&`, `|`, `^`, `~`), 
+    - assignment operators (`=`, `+=`, `-=`, `/=`,`*=`,`%=`).
+- Operators can be used to manipulate data, perform calculations, and control the flow of a program.
+- The precedence of operators determine the order in which operations are performed in an expression.
+- Understanding how to use operators correctly is crucial for writing efficient and bug-free C code.
+
+
 ## Getting Started
 
 Prerequisites: a C compiler such as `gcc` (MinGW on Windows).
