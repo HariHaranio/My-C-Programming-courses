@@ -14,6 +14,7 @@ C provides a rich set of operators grouped by purpose. Below is a concise refere
 - **Logical:** `&&` (AND), `||` (OR), `!` (NOT). `&&` and `||` short-circuit.
 
 - **Bitwise:** `&`, `|`, `^` (XOR), `~`, `<<` (left shift), `>>` (right shift). Operate on integer representations.
+   -[bitwise operators](https://www.geeksforgeeks.org/bitwise-operators-in-c-and-cpp/)
 
 - **Assignment:** `=` and compound forms `+=`, `-=`, `*=`, `/=`, `%=`, `&=`, `|=`, `^=`, `<<=`, `>>=`.
 
