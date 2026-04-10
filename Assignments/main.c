@@ -1,20 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-int main(){
-    int a = 5;
-    float b = 73.3120;
-    char s = 'S';
-    double pi = 3.141591234;
+int main()
+{
+    int row,col;
 
-    printf("The int a = %d\n",a);
-    printf("The folat b = %.2f \n",b);
-    printf("The char s = %c\n",s);
-    printf("The double pi = %lf\n",pi);
-    
-    printf("The address of int a = %p\n",a);
-    printf("The address of float b = %p\n",b);
-    printf("The address of char s = %p\n",s);
-    printf("The address of double pi = %p\n",pi);
-    
+    for (row = 1;row <= 7;row++){
+        for (col = 1;col <= 7;col++){
+            if (row == 1 || row == 7){
+                printf("*");
+            }else if ((row == 2 && col >= 2 && col <=6)  || (row ==6 && col >= 2 && col <=6)){
+                printf("*");
+            }else if((row == 3 && col >= 3 && col <=5)  || (row ==5 && col >= 3 && col <=5)){
+                printf("*");
+            }else if (row == 4 && col == 4){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
     return 0;
 }

@@ -67,5 +67,3 @@ syntax: expression1 ? Expression2 : Expression3;
 - Use parentheses to avoid precedence surprises and improve readability.
 
 ---
-
-If you want, I can add a small `examples.c` file demonstrating each operator category. Tell me if you'd like that added to the folder.
