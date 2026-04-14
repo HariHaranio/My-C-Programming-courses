@@ -54,7 +54,6 @@ To execute a function, you need to call it by using its name and providing the r
 int result = add(5, 10);
 ``` 
 
-# Different Types of Functions.
 # C Programming – Types of Functions
 
 ## Overview
