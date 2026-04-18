@@ -61,6 +61,11 @@ int result = add(5, 10);
 In C programming, functions are classified based on how they handle **input (arguments)** and **output (return values)**.
 Understanding this is critical because it defines how data flows through your program.
 
+## Memory Management of Functions
+When a function is called, memory for its variables and other data is allocated in a separate block in a stack called a stack frame.
+The stack in which it is created is called function call stack. When the function completes its execution,
+its stack frame is deleted from the stack, freeing up the memory.
+
 ---
 
 ## 1. No Arguments, No Return Value
