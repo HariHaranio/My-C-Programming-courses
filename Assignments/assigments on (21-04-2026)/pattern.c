@@ -18,6 +18,7 @@ int main(){
         }printf("\n");
     }
 
+    printf("--------------------------------------------------\n\n");
     printf("\t\t\t4x4 pattern\n");
     for(int i = 0;i <= 3;i++){
         for(int j = 0;j <= 3;j++){
@@ -25,6 +26,7 @@ int main(){
         }printf("\n");
     }
 
+    printf("--------------------------------------------------\n\n");
     printf("\t\t\t1,2,3 in 3x3 pattern\n");
     for(int i = 1;i <= 3;i++){
         for(int j = 1;j <= 3;j++){
@@ -32,6 +34,7 @@ int main(){
         }printf("\n");
     }
 
+    printf("--------------------------------------------------\n\n");
     printf("\t\t\tW pattern\n");
     for(int row = 1;row <= 4;row++){
         for(int col = 1;col <= 5;col++){
@@ -47,6 +50,7 @@ int main(){
         }printf("\n");
     }
 
+    printf("--------------------------------------------------\n\n");
     printf("\t\t\tM pattern\n");
     for(int row = 1;row <= 4;row++){
         for(int col = 1;col <= 5;col++){
@@ -61,5 +65,15 @@ int main(){
             }
         }printf("\n");
     }
+    
+    printf("--------------------------------------------------\n\n");
+    printf("\t\t\tRight Half Pyramid\n\n");
+    for (int row = 1;row<=5;row++){
+        for (int col = 1;col <= row;col++){
+            printf("* ");
+        }
+        printf("\n");
+    }
+
     return 0;
 }
