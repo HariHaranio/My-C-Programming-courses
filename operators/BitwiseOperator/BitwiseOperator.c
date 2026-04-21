@@ -1,7 +1,5 @@
 /*
     * BitwiseOperator.c
-    *
-    *  Created on: 2024-06-01
 */
 
 #include <stdio.h>
