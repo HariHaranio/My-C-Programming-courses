@@ -1,28 +1,31 @@
+/*
+    Write a function to check whether a given number is Palindrome or not.
+*/
+
 #include <stdio.h>
 
-int main()
-{
+int isPalindrome(int a);
 
-    // a = 5 (00000101 in 8-bit binary)
-    // b = 9 (00001001 in 8-bit binary)
-    unsigned int a = 5, b = 9;
 
-    // The result is 00000001
-    printf("a&b = %u\n", a & b);
+int main(){
+    int a = 0;
 
-    // The result is 00001101
-    printf("a|b = %u\n", a | b);
-
-    // The result is 00001100
-    printf("a^b = %u\n", a ^ b);
-
-    // The result is 11111111111111111111111111111010 (assuming 32-bit unsigned int)
-    printf("~a = %u\n", a = ~a);
-
-    // The result is 00010010
-    printf("b<<1 = %u\n", b << 1);
-
-    // The result is 00000100
-    printf("b>>1 = %u\n", b >> 1);
+    printf("Enter a number to check it is Palindrome or not: ");
+    scanf("%d",&a);
+    
+    int finalResult = isPalindrome(a) ? printf("The given number is Palindrome: %d",a) 
+                                      : printf("The given number is not a Palindrome: %d",a); 
+                                      // Ternary operator to print the result
     return 0;
+}
+
+int isPalindrome(int a){
+    if (a < 0) return 0; // Negative numbers are not Palindrome
+    int rev = 0;
+    int tempNum = a;
+    while (tempNum > 0){
+        rev  = rev * 10 + (tempNum%10);
+        tempNum /= 10;
+    }
+    return (a == rev);
 }
