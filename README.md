@@ -86,3 +86,13 @@ Compile and run an example (Windows / PowerShell):
 
 - Format specifiers are essential for correctly interpreting and displaying data in C programs.
 
+## storage classes.
+- Storage classes in C define the scope, visibility, and lifetime of variables and functions.
+- The four storage classes in C are:
+    | Storage Class | Key Points | Lifetime | Scope | Default Value | Memory |
+    |---|---|---|---|---|---|
+    | `auto` | Default local variable | Function/block execution | Local | Garbage value | Stack |
+    | `register` | Faster access using CPU register | Function/block execution | Local | Garbage value | CPU Register |
+    | `static` | Retains value between calls | Entire program | Local/Global | `0` | Data Segment |
+    | `extern` | Access global variable from another file | Entire program | Global | `0` | Data Segment |
+    
