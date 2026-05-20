@@ -235,9 +235,8 @@ int deposit(){
 int withdraw(){
 
     int pin;
-    float amount;
+    int amount;
     int found = 0;
-    int mimumAmount = 100;
 
     printf("Processing withdrawal...\n");
 
@@ -255,39 +254,42 @@ int withdraw(){
             printf("Current Balance: %d\n", user[i].balance);
 
             printf("Enter Withdrawal Amount: ");
-            scanf("%f", &amount);
+            scanf("%d", &amount);
 
-            if(amount >= 100 && amount <= user[i].balance && ((int)amount % 100) == 0 && amount == (int)amount){
-
+            // Validation
+            if(amount < 100){
+                printf("Minimum withdrawal amount is 100!\n");
+            }
+            else if(amount % 100 != 0){
+                printf("Enter amount in multiples of 100 only!\n");
+            }
+            else if(amount > user[i].balance){
+                printf("Insufficient Balance!\n");
+            }
+            else{
                 user[i].balance -= amount;
-
                 printf("Withdrawal Successful!\n");
-
                 printf("Please take your cash.\n");
-                printf("do you want to print receipt? (1 for yes, 0 for no): ");
+
                 int printChoice;
+
+                printf("Do you want to print receipt? (1 for yes, 0 for no): ");
                 scanf("%d", &printChoice);
+
                 if(printChoice == 1){
                     printReceipt();
                 }else{
+
                     printf("Thank you for using our ATM service!\n");
                 }
-
-            }else{
-                printf("Insufficient Balance!\n");
-            }
-
-            break;
+            }// end of validation
         }
     }
 
     if(found == 0){
-
         printf("Invalid PIN!\n");
     }
-
     process_delay(5);
-
     return 0;
 }
 
